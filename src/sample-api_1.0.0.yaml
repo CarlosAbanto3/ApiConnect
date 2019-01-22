@@ -27,7 +27,7 @@ x-ibm-configuration:
   assembly:
     execute:
     - invoke:
-        target-url: "http://abhinabsarkar-eval-test.apigee.net/github/users/mojombo"
+        target-url: "https://abhinabsarkar-eval-test.apigee.net/github/users/mojombo"
   phase: "realized"
 paths: {}
 definitions: {}
