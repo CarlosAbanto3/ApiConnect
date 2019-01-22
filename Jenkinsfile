@@ -1,12 +1,12 @@
 //For windows server, curl for windows is needed to be installed and the script will be run using bat command
 
 // Pull in default Jenkinsfile
-jenkinsfileURL = ""
+jenkinsfileURL = "https://github.com/CarlosAbanto3/ApiConnect.git"
 jenkinsfileBranch = "master"
 
 product = "sample-product_1.0.0.yaml"
 //Name of credential object in Jenkins
-creds = "11687a1b-d9a4-4416-9a69-60e19e222f9d"
+creds = "carlosabanto3"
 
 //APIC Environment variables
 devServer = ""
@@ -27,7 +27,7 @@ prodCatalog = ""
 prodOrg = ""
 prodSpace = ""
 
-node('Linux_agent') {    
+node('jenkins-slave-label') {    
 
     try{
         echo "Workspace: ${env.WORKSPACE}"
