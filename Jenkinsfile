@@ -1,7 +1,7 @@
 //For windows server, curl for windows is needed to be installed and the script will be run using bat command
 
 // Pull in default Jenkinsfile
-jenkinsfileURL = "https://github.com/CarlosAbanto3/ApiConnect.git"
+jenkinsfileURL = ""
 jenkinsfileBranch = "master"
 
 product = "sample-product_1.0.0.yaml"
