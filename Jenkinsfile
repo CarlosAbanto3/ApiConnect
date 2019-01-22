@@ -1,7 +1,7 @@
 //For windows server, curl for windows is needed to be installed and the script will be run using bat command
 
 // Pull in default Jenkinsfile
-jenkinsfileURL = ""
+jenkinsfileURL = "https://github.com/CarlosAbanto3/ApiConnect"
 jenkinsfileBranch = "master"
 
 product = "sample-product_1.0.0.yaml"
@@ -9,8 +9,8 @@ product = "sample-product_1.0.0.yaml"
 creds = "11687a1b-d9a4-4416-9a69-60e19e222f9d"
 
 //APIC Environment variables
-devServer = ""
-devCatalog = ""
+devServer = "https://172.16.1.144/apim/#/design/apis"
+devCatalog = "https://172.16.1.144/apim/#/catalogs/5c3df659e4b04a13a8f7fbe0/products"
 devOrg = ""
 
 testServer = ""
