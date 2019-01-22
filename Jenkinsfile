@@ -6,7 +6,7 @@ jenkinsfileBranch = "master"
 
 product = "sample-product_1.0.0.yaml"
 //Name of credential object in Jenkins
-creds = "carlosabanto3"
+creds = ""
 
 //APIC Environment variables
 devServer = ""
