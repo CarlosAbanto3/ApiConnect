@@ -6,7 +6,7 @@ jenkinsfileBranch = "master"
 
 product = "sample-product_1.0.0.yaml"
 //Name of credential object in Jenkins
-creds = ""
+creds = "carlosabanto3"
 
 //APIC Environment variables
 devServer = ""
@@ -27,7 +27,7 @@ prodCatalog = ""
 prodOrg = ""
 prodSpace = ""
 
-node('jenkins-slave-label') {    
+node('Linux_agent') {    
 
     try{
         echo "Workspace: ${env.WORKSPACE}"
